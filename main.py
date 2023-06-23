@@ -1,14 +1,10 @@
 def main():
     
     celcius = input('Enter Celcius: ')
-    fahrenheit = (9/5) * float(celcius) + 32
+    fahrenheit = (9 / 5) * float(celcius) + 32
     print (f'Fahrenheit: \t {fahrenheit:.2f}')
     
-    
-    
-    
-    
-    return celcius, fahrenheit
+    return float(celcius), fahrenheit
 
 
 
