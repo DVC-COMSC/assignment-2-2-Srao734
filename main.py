@@ -1,17 +1,11 @@
 def main():
-    """
-    ##################################################
-    # Comlete your code here
-    Use the same variables: celcius fahrenheit 
-    ##################################################
-    """
+    
+    celcius = input('Enter Celcius: ')
+    fahrenheit = (9 / 5) * float(celcius) + 32
+    print (f'Fahrenheit: \t {fahrenheit:.2f}')
+    
+    return float(celcius), fahrenheit
 
-    """
-    ########################################
-    # Do not delete the return statement
-    ########################################
-    """
-    return celcius, fahrenheit
 
 
 if __name__ == '__main__':
